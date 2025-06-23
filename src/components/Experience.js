@@ -94,7 +94,7 @@ const Experience = () => {
 
       <Grid container spacing={3}>
           <motion.div variants={fadeInUp}>
-  {workExperience.map((job, index) => (
+        {workExperience.map((job, index) => (
           <Grid item xs={12} sm={6} key={index} sx={{ mt: 2 }}>
             <Card
               elevation={4}
