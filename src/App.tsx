@@ -74,25 +74,7 @@ const App: React.FC = () => {
         </div>
       </section>
 
-      <section id="about" className="about-section">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10">
-              <div className="about-card animate-on-scroll">
-                <h2 className="section-title">About Me</h2>
-                <p className="section-subtitle">A glimpse into my professional journey</p>
-                <p className="about-text">
-                  Experienced .NET developer with extensive background in full-stack development,
-                  enterprise applications, and financial systems. I specialize in building robust,
-                  scalable solutions using ASP.NET, React.js, and cloud technologies. With a strong
-                  foundation in both frontend and backend development, I bring ideas to life through
-                  clean, maintainable code and thoughtful architecture.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       <section id="skills" className="skills-section">
         <div className="container">
