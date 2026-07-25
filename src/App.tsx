@@ -105,7 +105,7 @@ const App: React.FC = () => {
               <div className="skill-category">
                 <h3>Languages</h3>
                 <div>
-                  {['C#', 'PHP', 'JavaScript', 'TypeScript', 'HTML5', 'CSS', 'SQL', 'VB.NET'].map((skill) => (
+                  {['C#', 'PHP', 'JavaScript', 'TypeScript','Python', 'HTML5', 'CSS', 'SQL', 'VB.NET'].map((skill) => (
                     <span key={skill} className="skill-tag">{skill}</span>
                   ))}
                 </div>
@@ -115,7 +115,7 @@ const App: React.FC = () => {
               <div className="skill-category">
                 <h3>Frameworks</h3>
                 <div>
-                  {['ASP.NET', '.NET Core', 'Laravel', 'React.js', 'SignalR', 'Bootstrap'].map((skill) => (
+                  {['ASP.NET', '.NET Core', 'Laravel', 'React.js','FASTAPI', 'SignalR', 'Bootstrap'].map((skill) => (
                     <span key={skill} className="skill-tag">{skill}</span>
                   ))}
                 </div>
